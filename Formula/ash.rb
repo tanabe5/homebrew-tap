@@ -1,4 +1,4 @@
-VERSION="0.1.15"
+VERSION="0.1.1"
 PRODUCT="ash"
 
 class Ash < Formula
