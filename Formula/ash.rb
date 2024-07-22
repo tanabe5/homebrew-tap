@@ -40,5 +40,5 @@ class Ash < Formula
 
   test do
     system "#{bin}/ash --version"
-  done
+  end
 end
