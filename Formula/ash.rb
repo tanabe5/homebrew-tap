@@ -33,9 +33,9 @@ class Ash < Formula
   def install
     bin.install "ash"
 
-    bash_completion.install "completions/bash/sibling.bash" if build.with? "completions"
-    fish_completion.install "completions/fish/sibling.bash" if build.with? "completions"
-    zsh_completion.install  "completions/zsh/sibling.bash"  if build.with? "completions"
+    bash_completion.install "completions/bash/ash" if build.with? "completions"
+    fish_completion.install "completions/fish/ash" if build.with? "completions"
+    zsh_completion.install  "completions/zsh/_ash"  if build.with? "completions"
   end
 
   test do
