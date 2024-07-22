@@ -12,22 +12,22 @@ class Ash < Formula
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/tanabe5/#{PRODUCT}/releases/download/v#{VERSION}/#{PRODUCT}-#{VERSION}_darwin_amd64.tar.gz"
-    sha256 "20674a5e8bf1cf465f711d135603d015adaffd0636ab2dea799d63d4feca7397"
+    sha256 "1650125eb012e89a9f8fd0369feb8386d0c831880af912673dd00bc504976e6f"
   end
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/tanabe5/#{PRODUCT}/releases/download/v#{VERSION}/#{PRODUCT}-#{VERSION}_darwin_arm64.tar.gz"
-    sha256 "7e945c9c8274669e9c94d3e43583ece523e7e96ce69ac992d90ac5ce50d5cd68"
+    sha256 "92ea58c3c873ecc8ea52c39b48f30af10e538169725504d6353fa43cf48984cd"
   end
 
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/tanabe5/#{PRODUCT}/releases/download/v#{VERSION}/#{PRODUCT}-#{VERSION}_linux_amd64.tar.gz"
-    sha256 "dfad8de4a6e80404a6f055cfe628465fe72098e694f944db00c589d63c7978ad"
+    sha256 "14fa2c2bdc61eee09abf03a1caea0f6d17a0918b6dc78f6b9dd1d24180236a3f"
   end
 
   if OS.linux? && Hardware::CPU.arm?
     url "https://github.com/tanabe5/#{PRODUCT}/releases/download/v#{VERSION}/#{PRODUCT}-#{VERSION}_linux_arm64.tar.gz"
-    sha256 "b8c1cf16fb2a4939e3f7fdf52ee2b9d69060f436a78bb3b256aab5976e9dd94b"
+    sha256 "509395e8ac029a8c5b0ae76057b9c1c3a94b294cb1a808875ef3426dc965d09a"
   end
 
   def install
